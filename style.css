@@ -1810,14 +1810,14 @@ body.nav-active .nav__list-item:nth-child(10) {
     width: 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    left: 70px; 
+    left: 170px; 
     text-align: center;
 }
 
 #about-me .apostleLogo {
     display: block;
     padding-bottom: 250px;
-    height: 50%;
+    height: 50px;
     width: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1826,29 +1826,6 @@ body.nav-active .nav__list-item:nth-child(10) {
     
 }
 
-/*
-.skill-chart li span.twenty-percent {
-  width: 20%; 
-}
-.skill-chart li span.thirty-percent {
-  width: 30%; 
-}
-.skill-chart li span.forty-percent {
-  width: 40%; 
-}
-.skill-chart li span.fifty-percent {
-  width: 50%; 
-}
-.skill-chart li span.sixty-percent {
-  width: 60%; 
-}
-.skill-chart li span.seventy-percent {
-  width: 70%; 
-}
-.skill-chart li span.eighty-percent {
-  width: 80%; 
-}
-*/
 
 /*----- 6.5 Portfolio Section
 --------------------------------------------------------------*/
