@@ -1435,7 +1435,7 @@ blockquote cite {
     position: absolute;
     top: 0;
     z-index: 9;
-    padding: 40px;
+    padding: 20px;
     width: 100%;
 }
 
@@ -1444,10 +1444,6 @@ blockquote cite {
 .main-logo a {
     font-size: 1em;
     color: #fff;
-    font-weight: 600;
-}
-.main-logo.dark a {
-    color: #000;
 }
 
 @media screen and (max-width: 799px){
