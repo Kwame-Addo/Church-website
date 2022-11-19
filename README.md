@@ -1,2 +1,2 @@
 # Church-website
-This is a sample church website developed for RVFCI
+This is a church website developed for RVFCI
