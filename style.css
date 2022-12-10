@@ -1803,15 +1803,14 @@ body.nav-active .nav__list-item:nth-child(10) {
     width: 100%;
 }
 #about-me .rvfcLogo {
-    display: block;
-    padding-bottom: 250px;
-    margin-bottom: 100px;
-    height: 80%;
-    width: 50%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    left: 170px; 
-    text-align: center;
+  width: 100%;
+    height: 100%;
+}
+#about-me .rvfcLogo:hover{
+    -webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
 }
 
 #about-me .apostleLogo {
