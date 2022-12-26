@@ -2236,3 +2236,27 @@ transition: 1s ease;
 .contact .detail-item p {
     margin: 0;
 }
+
+
+/* Back-to-top Button */
+/*Floating Back-To-Top Button*/
+#myBtn {
+  position: fixed;
+  bottom: 10px;
+  float: right;
+  right: 18.5%;
+  left: 77.25%;
+  max-width: 30px;
+  width: 100%;
+  font-size: 12px;
+  border-color: rgba(85, 85, 85, 0.2);
+  padding: .5px;
+  border-radius: 4px;
+  height: 37px;
+  width: 37px;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+  background-color: #7dbbf1;
+}
