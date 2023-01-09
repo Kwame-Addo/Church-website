@@ -22,7 +22,7 @@
 	<script src="https://kit.fontawesome.com/df7af53543.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<button id="myBtn"><a href="#top" style="color: white"><i class="fa-solid fa-arrow-up"></i></a></button>
+	
 <div id="overlayer">
 	<span class="loader">
 	  <span class="loader-inner"></span>
@@ -42,7 +42,7 @@
 	</div>
 </div>
 
-<header id="header">
+<header class="top-container" id="header">
 	<div class="header-wrap" data-aos="fade">
 		<div class="main-logo">
 			<a href="index.html">RFVC</a>
@@ -57,7 +57,9 @@
 
 	</div><!--header-wrap-->
 </header>
-
+  <div class="back-to-top" onclick="scrollToTop('top')">
+	<i class="fas fa-angle-up"></i>
+  </div>
 <section class="hero-section jarallax">	
 	<img src="images/AboutUs-banner.jpg" class="jarallax-img">
 	<div class="hero-content padding-xlarge">
@@ -94,8 +96,8 @@
 			</div>
 			<div class="col-md-6">
 				<figure>
-					<a href="images/portfolio2.jpg" data-lightbox-gallery="gallery1" title="Calm Before The Storm (One Shoe Photography Ltd.)" class="image-link">
-					<img src="images/news-image2.jpeg" style="height: 500px;"></a>
+					
+					<img src="images/news-image2.jpeg" style="height: 500px;">
 					<figcaption>Lady Reverend Charlotte Ouro</figcaption>
 				</figure>
 			</div>
@@ -470,6 +472,6 @@
 	<script src="js/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
-
+    <script src="js/style.js"></script>
 	</body>
 </html>
