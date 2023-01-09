@@ -23,7 +23,7 @@
 	<script src="https://kit.fontawesome.com/df7af53543.js" crossorigin="anonymous"></script>
 </head>
 <body class="resources-page">
-	<button id="myBtn"><a href="#top" style="color: white"><i class="fa-solid fa-arrow-up"></i></a></button>
+
 <div class="nav nav-overlay">
 	<div class="nav__content">
 		<ul class="nav__list">
@@ -37,7 +37,7 @@
 	</div>
 </div>
 
-<header id="header">
+<header class="top-container" id="header">
 	<div class="header-wrap" data-aos="fade">
 		<div class="main-logo">
 			<a href="index.html">RVFC</a>
@@ -52,7 +52,9 @@
 
 	</div><!--header-wrap-->
 </header>
-
+  <div class="back-to-top" onclick="scrollToTop('top')">
+	<i class="fas fa-angle-up"></i>
+  </div>
 <section class="hero-section jarallax">	
 	<img src="images/books.PNG" class="jarallax-img">
 	<div class="hero-content padding-xlarge">
@@ -326,6 +328,6 @@
 	<script src="js/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
-
+    <script src="js/style.js"></script>
 	</body>
 </html>
