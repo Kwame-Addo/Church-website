@@ -1858,9 +1858,29 @@ transition: 1s ease;
     text-align: center;
     
 }
-.founder-image{
-  height: 200px;
+.founder-image {
+display: block;
+margin: 0 auto;
 }
+.about-img {
+display: block;
+margin: 0 auto;
+}
+.ministries-row img {
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease;
+     width: 300px; /* set the max width of the images */
+    height: 200px;
+   
+}
+
+.ministries-row img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #000;
+}
+
+
 
 
 /*----- 6.5 Portfolio Section
@@ -1957,17 +1977,17 @@ transition: 1s ease;
 }
 
 
-/* add padding and margin to the achievement-block divs for a more professional feel */
+
 #achievement .achievement-block, #achievement2 .achievement-block  {
     padding: 50px;
     margin-bottom: 50px;
-    height: 400px; /* set the desired height */
-    width: 100%; /* set the width to be 100% of its container */
-    background-size: cover; /* fit the background image to the div */
-    background-position: center; /* center the background image */
-    position: relative; /* position:relative to use z-index */
-    z-index: 1; /* set z-index to 1 so it will be on top when sliding */
-    transform: translateX(-300%); /* translate the element 100% to the left */
+    height: 400px; 
+    width: 100%; 
+    background-size: cover; 
+    background-position: center; 
+    position: relative; 
+    z-index: 1; 
+    transform: translateX(-400%);
     transition: transform 0.5s; 
     color: white;
     background: linear-gradient( to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100% );
@@ -1975,7 +1995,7 @@ transition: 1s ease;
     
 }
 
-/* increase the font size of the h3 headings for better readability */
+
 #achievement .achievement-block h4 {
     font-size: 30px;
 }
